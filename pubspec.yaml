@@ -5,8 +5,8 @@ repository: https://github.com/AS-Devs/signalr_flutter
 issue_tracker: https://github.com/AS-Devs/signalr_flutter/issues
 
 environment:
-  flutter: ">=3.19.0"
-  sdk: ">=3.2.0"
+  flutter: ">2.19.5"
+  sdk: ">=2.19.5"
 
 dependencies:
   flutter:
@@ -31,6 +31,7 @@ flutter:
     platforms:
       android:
         package: dev.asdevs.signalr_flutter
-        pluginClass: SignalrFlutterPlugin
+        pluginClass: SignalRFlutterPlugin
       ios:
-        pluginClass: SignalrFlutterPlugin
+        pluginClass: SignalRFlutterPlugin
+
